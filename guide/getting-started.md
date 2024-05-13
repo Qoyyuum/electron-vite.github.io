@@ -30,7 +30,7 @@ Whether you want to build an Electron application quickly or want to optimize an
 
 ## Scaffolding Your First Vite Project
 
-::: tip Fist way
+::: tip First way
 Use the command provided by 👉 [npm create electron-vite@latest](https://github.com/electron-vite/create-electron-vite)
 :::
 
@@ -41,20 +41,10 @@ Use Vite's official create command
 :::
 
 ```sh
-npm create vite@latest my-electron-vite-project
+npm create electron-vite@latest my-electron-vite-project
 
-? Select a framework: › - Use arrow-keys. Return to submit.
-    Vanilla
-    Vue
-    React
-    Preact
-    Lit
-    Svelte
-❯   Others
-
-? Select a variant: › - Use arrow-keys. Return to submit.
-    create-vite-extra ↗
-❯   create-electron-vite ↗
+> npx
+> create-electron-vite my-electron-vite-project
 
 # Choose your preferred front-end framework language
 ? Project template: › - Use arrow-keys. Return to submit.
